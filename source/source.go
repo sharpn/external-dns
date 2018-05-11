@@ -28,13 +28,13 @@ import (
 
 const (
 	// The annotation used for figuring out which controller is responsible
-	controllerAnnotationKey = "external-dns.alpha.kubernetes.io/controller"
+	controllerAnnotationKey = "external-dns.experimental.io/controller"
 	// The annotation used for defining the desired hostname
-	hostnameAnnotationKey = "external-dns.alpha.kubernetes.io/hostname"
+	hostnameAnnotationKey = "external-dns.experimental.io/hostname"
 	// The annotation used for defining the desired ingress target
-	targetAnnotationKey = "external-dns.alpha.kubernetes.io/target"
+	targetAnnotationKey = "external-dns.experimental.io/target"
 	// The annotation used for defining the desired DNS record TTL
-	ttlAnnotationKey = "external-dns.alpha.kubernetes.io/ttl"
+	ttlAnnotationKey = "external-dns.experimental.io/ttl"
 	// The value of the controller annotation so that we feel responsible
 	controllerAnnotationValue = "dns-controller"
 )
